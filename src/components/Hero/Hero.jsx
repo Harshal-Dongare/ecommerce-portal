@@ -3,7 +3,6 @@ import HeroImage from "../../assets/hero.png";
 import { RiShoppingBagFill } from "react-icons/ri";
 import { BsArrowRight } from "react-icons/bs";
 import { motion } from "framer-motion";
-import { type } from "@testing-library/user-event/dist/type";
 
 const Hero = () => {
     const transition = { duration: 3, type: "spring" };
