@@ -5,9 +5,6 @@ import { TestimonialsData } from "../../data/testimonials";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// import Swiper core and required modules
-import { Navigation, Pagination } from "swiper/react";
-
 // Import default Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
