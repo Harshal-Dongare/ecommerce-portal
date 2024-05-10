@@ -1,0 +1,87 @@
+.container-l {
+    position: relative;
+}
+
+/* .swiper class comes from the library for the Swipper component */
+.container-l .swiper {
+    width: 50%;
+    height: 10rem;
+    position: unset;
+}
+
+.container-l .swiper-slide {
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    user-select: none;
+}
+
+/* Slider Navigation Icons */
+.container-l .swiper-button-prev {
+    left: 10rem;
+    color: black;
+}
+
+.container-l .swiper-button-next {
+    right: 10rem;
+    color: black;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.leftSide .name {
+    display: flex;
+    flex-direction: column;
+}
+
+.name > :first-child {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.name > :last-child {
+    font-size: 0.7rem;
+}
+
+.leftSide > :nth-child(2) {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.leftSide > :nth-child(3) {
+    border: 1px solid var(--black);
+    font-size: 0.6rem;
+    padding: 5px 10px;
+    width: max-content;
+    border-radius: 15px;
+}
+
+.img-product {
+    transform: rotate(-20deg);
+    position: absolute;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    bottom: -20%;
+}
+
+
+@media Screen and (max-width: 856px) {
+    .container-l .swiper{
+        width: 90%;
+        height: 15rem;
+    }
+
+    .container-l .swiper-button-prev,
+    .container-l .swiper-button-next{
+        display: none;
+    }
+}
