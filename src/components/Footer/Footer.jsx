@@ -17,7 +17,7 @@ const Footer = () => {
                 {/* Logo */}
                 <div className={css.logo}>
                     <img src={Logo} alt="" />
-                    <span>amazon</span>
+                    <span>Glamhue</span>
                 </div>
 
                 {/* Contact Us Block */}
