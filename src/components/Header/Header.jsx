@@ -16,7 +16,7 @@ const Header = () => {
             {/* Branding of Portal */}
             <div className={css.logo}>
                 <img src={Logo} alt="" /> {/* Website logo */}
-                <span>amazon</span> {/* Website Name */}
+                <span>GlamHue</span> {/* Website Name */}
             </div>
 
             {/* Navigation Section on the right side */}
